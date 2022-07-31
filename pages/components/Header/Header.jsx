@@ -32,6 +32,7 @@ const Header = () => {
         <Link href="./">{`${HEADER.PRODUCTS}`}</Link>
         <Link href="./tycs">{`${HEADER.TYCS}`}</Link>
         <Link href="./discounts">{`${HEADER.DISCOUNTS}`}</Link>
+        <Link href="./contact">{`${HEADER.CONTACT}`}</Link>
       </div>
       <div className={styles.localeSwitch}>
         {/* Mediante el atributo locale le indicamos a Next que idioma queremos utilizar al hacer la
